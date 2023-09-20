@@ -24,24 +24,24 @@ const Navbar = () => {
 
     </button>
 
-    <a href="#" class="a">
+    <a href="." class="a">
         <img className="logo" src={Logo} alt="logo" />
     </a>
 
     <nav class="nav">
         <ul class="ul">
-            <li class="li"><a href="" class="a">Home</a></li>
-            <li class="li"><a href="" class="a">Registrarse</a></li>
-            <li class="li"><a href="" class="a">Evento del mes</a></li>
-            <li class="li"><a href="" class="a">Sobre Nosotros</a></li>
-            <li class="li"><a href="" class="a">FAQ</a></li>
+            <li class="li"><a href="." class="a">Home</a></li>
+            <li class="li"><a href="." class="a">Registrarse</a></li>
+            <li class="li"><a href="." class="a">Evento del mes</a></li>
+            <li class="li"><a href="." class="a">Sobre Nosotros</a></li>
+            <li class="li"><a href="." class="a">FAQ</a></li>
         </ul>
     </nav>
 
     <div class="buttons">
         <button class="login"><a href="./../login/login.html">Login</a></button>
-        <button class="register"><a href="#">Register</a></button>
-        <button id="user-icon"><a href="#"><i class="fa fa-user"></i></a></button>
+        <button class="register"><a href=".">Register</a></button>
+        <button id="user-icon"><a href="."><i class="fa fa-user"></i></a></button>
     </div>
 
 </header>
