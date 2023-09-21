@@ -1,9 +1,21 @@
-import './App.css';
+
+import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import UsuarioRegistrado from './components/UsuarioRegistrado';
 
 function App() {
   return (
-    <Navbar></Navbar>
+    <div className='App'> 
+        <Navbar />
+        <UsuarioRegistrado />
+        <Footer />
+
+    </div>
+
+//    <Routing />
+//  <Footer />
+  
+
   );
 }
 
