@@ -1,13 +1,15 @@
 import './App.css';
 import Footer from './components/Footer';
-import Login from './components/Login';
+import MisionVision from './components/MisionVision';
+// import Login from './components/Login';
 import Navbar from './components/Navbar';
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Login></Login>
+      {/* <Login></Login> */}
+      <MisionVision></MisionVision>
       <Footer></Footer>
     </>
   );
