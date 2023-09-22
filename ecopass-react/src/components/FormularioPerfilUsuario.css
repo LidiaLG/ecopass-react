@@ -1,0 +1,141 @@
+body{
+    background-color: #1B6B93;
+    font-family: 'Poppins', sans-serif;
+
+}
+h1{font-size: 3em;}
+
+.container{
+    padding: 3%;
+    border: solid black 2px;
+    border-radius: 2%;
+    background-color: #a2ff86;
+    color: #164b60;
+    
+}
+
+#formulario{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+
+}
+
+:is(input, textarea){
+    background-color: #1B6B93 !important; 
+    border: 0px !important;
+    color: white !important;
+    
+}
+
+#avatar{
+    display: none;
+}
+#perfil{
+    width: 170px;
+    
+}
+#files{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+#avatar1{
+    background-color: #1B6B93;
+    color: #ffffff;
+    text-align: center;
+
+}
+#botones{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#titulo{
+    background-color: #a2ff86;
+    height: 80px;
+    text-align: center;
+    color: #1B6B93;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#guardar, #cancelar{
+    background-color: #a2ff86;
+    border: none;
+    color: #1B6B93;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 50px;
+    width: 250px;
+    cursor: pointer;
+}
+#guardar:hover {
+    box-shadow: 0 4px 16px rgb(255, 255, 255);
+    transition: all 0.2s ease;
+}
+#cancelar:hover {
+    box-shadow: 0 4px 16px rgb(255, 255, 255);
+    transition: all 0.2s ease;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    #formulario{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .text{
+        width: 100%;
+    }
+    .container{
+        border-radius: 20px;
+       margin: 20px;
+        
+    }
+    h1{
+        font-size: 2em;
+        
+    }
+    #botones{
+        display: flexbox;
+        justify-content: center;
+        margin: 10px;
+    }
+
+
+    #guardar, #cancelar{
+        background-color: #a2ff86;
+        border: none;
+        color: #1B6B93;
+        padding: 5px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 2px 25px;
+        width: 150px;
+        cursor: pointer;
+    }
+
+    #files{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+        
+    }
+
+
+  }
