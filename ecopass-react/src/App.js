@@ -1,13 +1,14 @@
 
+import ApuntadoEventoModal from './components/ApuntadoEventoModal';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import UsuarioRegistrado from './components/UsuarioRegistrado';
 
-function App() {
+export function App() {
   return (
     <div className='App'> 
         <Navbar />
-        <UsuarioRegistrado />
+        <UsuarioRegistrado/>
         <Footer />
 
     </div>
@@ -18,5 +19,5 @@ function App() {
 
   );
 }
-
+ 
 export default App;
