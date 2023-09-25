@@ -1,8 +1,9 @@
 import "./ApuntadoEventoModal.css"
 
 export default function ApuntadoEventoModal() {
-    
-    return (
+
+  return (
+    <div className="containerModal">
       <div className="callout">
         <a href="evento.html" className="closebtn" style={{ textDecoration: 'none' }}>&times;</a>
         <div className="callout-container">
@@ -12,5 +13,6 @@ export default function ApuntadoEventoModal() {
           </svg>
         </div>
       </div>
-    );
-  }
+    </div >
+  );
+}

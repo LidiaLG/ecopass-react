@@ -1,4 +1,5 @@
 import UserEvent from "./UserEvent";
+import cameraIcon from '../assets/camera-solid.svg';
 
 const ueData =
   [
@@ -25,7 +26,7 @@ export default function UserEvents() {
         )}
 
       <div className="foto">
-        <img src="../assets/camera-solid.svg" alt="icono de cámara" id="camera-icon"
+        <img src={cameraIcon} alt="icono de cámara" id="camera-icon"
           style={{ height: "80px", width: "100px", alignSelf: "center" }} />
       </div>
     </div>

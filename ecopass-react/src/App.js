@@ -1,23 +1,31 @@
 
-import ApuntadoEventoModal from './components/ApuntadoEventoModal';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import UsuarioRegistrado from './components/UsuarioRegistrado';
+import { useState, useEffect } from 'react'
+import Routing from './Routing';
+import Evento from './components/Evento';
+
+/*
+
+  const [modal, setModal] = useState(true)
+
+  function desactivaModal() {
+    setModal(false); //ir a ...
+  }
+  console.log(modal)
+  {modal && <LoguearseModal closed={desactivaModal} />}
+  return (
+    */
 
 export function App() {
-  return (
-    <div className='App'> 
-        <Navbar />
-        <UsuarioRegistrado/>
-        <Footer />
 
-    </div>
+  <div className='App'>
 
-//    <Routing />
-//  <Footer />
-  
+    <Navbar />
+    <Evento />
+    <Footer />
 
-  );
+  </div>
 }
- 
+
 export default App;

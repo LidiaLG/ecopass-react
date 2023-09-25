@@ -11,31 +11,24 @@
 }
 
 .callout {
-    font-family: Poppins, sans-serif;
     background-color: #A2FF86;
     border: 3px solid black;
     border-radius: 10px;
     padding: 5%;
     max-width: 400px;
     height: 300px;
-    box-sizing: content-box !important;
-
-    display: flex;
-    
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    display: flex;
     position: relative;
- 
-   margin: 2%;
-    font-size: 20px;
 }
 
-p {
+p{
     text-align: center;
 }
 
-.icon-check {
-    width: 80px;
+.user{
+    width: 80px; 
     height: 80px;
     display: block;
     margin: 0 auto;
@@ -43,15 +36,15 @@ p {
 }
 
 .closebtn {
-
+    
     color: rgb(0, 0, 0);
     font-size: 30px;
     cursor: pointer;
     position: absolute;
     top: 4%;
     left: 4%;
-}
+  }
 
 .closebtn:hover {
-    color: #164b60;
+  color: #164b60;
 }
