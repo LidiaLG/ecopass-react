@@ -25,7 +25,7 @@ export default function RegisterForm() {
                             <p><label for="pwd2">Confirmar contraseña:</label></p>
                             <p><input type="password" id="pwd2" minlength="8" maxlength="12"
                                 placeholder="Entre 8 y 12 caracteres" required /></p>
-                            <p><input type="checkbox" id="aceptotérminosycondiciones" />
+                            <p><input type="checkbox" id="aceptoterminosycondiciones" />
                                 <label for="aceptotérminosycondiciones">He leído y acepto los <a href="./terminosyc.html">términos y condiciones de uso</a></label></p>
                             <a href="registrado_modal.html"><p><button type="submit" id="registerbutton" value="REGISTRARSE">REGISTRARSE</button></p></a>
                         </form>
