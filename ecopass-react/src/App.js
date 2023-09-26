@@ -3,7 +3,8 @@ import Footer from './components/Footer';
 // import MisionVision from './layouts/MisionVision';
 // import Login from './layouts/Login';
 import Navbar from './components/Navbar';
-import TerminosYCondiciones from './layouts/TerminosYCondiciones';
+import Recompensa from './layouts/Recompensa';
+// import TerminosYCondiciones from './layouts/TerminosYCondiciones';
 // import Faq from './layouts/Faq';
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
       {/* <Login></Login> */}
       {/* <MisionVision></MisionVision> */}
       {/* <Faq></Faq> */}
-      <TerminosYCondiciones></TerminosYCondiciones>
+      {/* <TerminosYCondiciones></TerminosYCondiciones> */}
+      <Recompensa></Recompensa>
       <Footer></Footer>
     </>
   );
