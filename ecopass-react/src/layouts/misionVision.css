@@ -15,11 +15,24 @@ body {
 .container {
     background-color: #1B6B93;
     margin-bottom: 40px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .divider {
-    background-color: #1B6B93;
-    padding: 5%; 
+    width: 100%;
+    background-color: #a2ff86 !important;
+    text-align: center;
+    height: 2em;
+    margin: 1em 0;
+    border: 2px solid black;
+}
+
+#info {
+    width: 80%;
+    margin: auto;
 }
 
 .titlesection {
