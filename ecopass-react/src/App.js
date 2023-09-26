@@ -1,7 +1,8 @@
 
 import Footer from './components/Footer';
-import Navbar from './components/Navbar';
+import Navbar from './layouts/Navbar';
 import UsuarioRegistrado from './components/UsuarioRegistrado';
+
 
 function App() {
   return (
