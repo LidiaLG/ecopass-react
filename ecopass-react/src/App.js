@@ -9,6 +9,7 @@ import UsuarioRegistrado from './components/UsuarioRegistrado';
 import LoguearseModal from './components/LoguearseModal';
 import ApuntadoEventoModal from './components/ApuntadoEventoModal';
 import EventoDetalles from './components/EventoDetalles.js';
+import RegistradoModal from './components/RegistradoModal.js';
 
 /*
 
@@ -33,6 +34,8 @@ export default function App() {
               <Route path='/UsuarioRegistrado' element={<UsuarioRegistrado />} />
               <Route path='/EventoDetalles' element={<EventoDetalles/>} />
               <Route path='/ApuntadoEventoModal' element={<ApuntadoEventoModal/>} />
+              <Route path='/LoguearseModal' element={<LoguearseModal/>} />
+              <Route path='/RegistradoModal' element={<RegistradoModal/>} />
             </Routes>
             <Footer />
           </BrowserRouter>

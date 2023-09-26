@@ -1,7 +1,8 @@
 import "./LoguearseModal.css";
 
-export default function LoguearseModal({closed}) {
+export default function LoguearseModal({ closed }) {
     return (
+        <div className="modal-overlay">
         <div className="containerModal">
             <div className="callout">
             <button className="closebtn" style={{ textDecoration: 'none' }}  onClick={closed}>&times;</button>
@@ -14,6 +15,7 @@ export default function LoguearseModal({closed}) {
                     </svg>
                 </div>
             </div>
+        </div >
         </div >
     );
 }
