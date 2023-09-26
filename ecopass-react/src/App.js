@@ -1,9 +1,14 @@
 
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
 import { useState, useEffect } from 'react'
-import Routing from './Routing';
-import Evento from './components/Evento';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar.js';
+import Footer from './components/Footer.js';
+
+//importar las diferentes páginas
+import UsuarioRegistrado from './components/UsuarioRegistrado';
+import LoguearseModal from './components/LoguearseModal';
+import ApuntadoEventoModal from './components/ApuntadoEventoModal';
+import EventoDetalles from './components/EventoDetalles.js';
 
 /*
 
@@ -17,15 +22,19 @@ import Evento from './components/Evento';
   return (
     */
 
-export function App() {
+export default function App() {
 
-  <div className='App'>
 
-    <Navbar />
-    <Evento />
-    <Footer />
 
-  </div>
-}
-
-export default App;
+    return (
+          <BrowserRouter>
+            <Navbar />
+            <Routes>
+              <Route path='/UsuarioRegistrado' element={<UsuarioRegistrado />} />
+              <Route path='/EventoDetalles' element={<EventoDetalles/>} />
+              <Route path='/ApuntadoEventoModal' element={<ApuntadoEventoModal/>} />
+            </Routes>
+            <Footer />
+          </BrowserRouter>
+        );
+      }
