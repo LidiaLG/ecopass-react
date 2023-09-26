@@ -1,22 +1,14 @@
 
-import Footer from './components/Footer';
-import Navbar from './layouts/Navbar';
-import UsuarioRegistrado from './components/UsuarioRegistrado';
+import Router from './Router'
 
 
 function App() {
   return (
-    <div className='App'> 
-        <Navbar />
-        <UsuarioRegistrado />
-        <Footer />
-
-    </div>
-
-//    <Routing />
-//  <Footer />
+    <> 
+        <Router>
+        </Router>
+    </>
   
-
   );
 }
 

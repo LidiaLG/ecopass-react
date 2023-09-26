@@ -4,12 +4,12 @@ export default function RegisterForm() {
 
     return (
         <>
-            <div class="row"><div class="divider"></div></div>
-            <div class="title"><div class="titlesection"><h1>¡REGÍSTRATE!</h1></div></div>
-            <div class="registercontainer">
-                <div class="row"><div class="divider"></div></div>
-                <div class="row" id="formulario">
-                    <div class="registerbox">
+            <div className="row"><div className="divider"></div></div>
+            <div className="title"><div className="titlesection"><h1>¡REGÍSTRATE!</h1></div></div>
+            <div className="registercontainer">
+                <div className="row"><div className="divider"></div></div>
+                <div className="row" id="formulario">
+                    <div className="registerbox">
                         <form id="registerform" action="/my-handling-form-page" method="post">
                             <p><label for="name">Nombre:</label></p>
                             <p><input type="text" id="name" required /></p>
@@ -32,7 +32,7 @@ export default function RegisterForm() {
                     </div>
                 </div>
             </div>
-            <div class="row"><div class="divider"></div></div>
+            <div className="row"><div className="divider"></div></div>
         </>
     )
 }

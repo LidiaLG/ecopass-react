@@ -46,25 +46,25 @@ const Faq = () => {
 
   return (
     <>
-        <div class="row">
-            <div class="divider"></div>
+        <div className="row">
+            <div className="divider"></div>
         </div>
-        <div class="title"><div class="titlesection"><h1>FAQ - Frequently Asked Questions</h1></div></div>
-        <div class="container">
-            <div class="row">
-                <div class="divider"></div>
+        <div className="title"><div className="titlesection"><h1>FAQ - Frequently Asked Questions</h1></div></div>
+        <div className="container">
+            <div className="row">
+                <div className="divider"></div>
             </div>
-            <div class="row" id="FAQ">
+            <div className="row" id="FAQ">
                 {faqData.preguntas.map((question) => (
-                    <div key={question.id} className="box">
-                    <p className="infotitle">{question.pregunta}</p>
-                    <p className="info">{question.respuesta}</p>
+                    <div key={question.id} classNameName="box">
+                    <p classNameName="infotitle">{question.pregunta}</p>
+                    <p classNameName="info">{question.respuesta}</p>
                   </div>
                 ))}
             </div>
         </div>
-        <div class="row">
-            <div class="divider"></div>
+        <div className="row">
+            <div className="divider"></div>
         </div>
     </>
   )
