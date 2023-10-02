@@ -21,14 +21,7 @@ body {
     align-items: center;
 }
 
-.divider {
-    width: 100%;
-    background-color: #a2ff86 !important;
-    text-align: center;
-    height: 2em;
-    margin: 1em 0;
-    border: 2px solid black;
-}
+
 
 #info {
     width: 80%;
