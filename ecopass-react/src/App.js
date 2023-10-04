@@ -1,36 +1,16 @@
 
 import Router from './Router'
 
+import React from 'react'
 
-/*
-
-  const [modal, setModal] = useState(true)
-
-  function desactivaModal() {
-    setModal(false); //ir a ...
-  }
-  console.log(modal)
-  {modal && <LoguearseModal closed={desactivaModal} />}
+const App = () => {
   return (
-    <> 
-        <Router>
-        </Router>
+    <>
+      <Router>
+
+      </Router>
     </>
-  
-  );
+  )
 }
 
-    return (
-          <BrowserRouter>
-            <Navbar />
-            <Routes>
-              <Route path='/UsuarioRegistrado' element={<UsuarioRegistrado />} />
-              <Route path='/EventoDetalles' element={<EventoDetalles/>} />
-              <Route path='/ApuntadoEventoModal' element={<ApuntadoEventoModal/>} />
-              <Route path='/LoguearseModal' element={<LoguearseModal/>} />
-              <Route path='/RegistradoModal' element={<RegistradoModal/>} />
-            </Routes>
-            <Footer />
-          </BrowserRouter>
-        );
-      }
+export default App

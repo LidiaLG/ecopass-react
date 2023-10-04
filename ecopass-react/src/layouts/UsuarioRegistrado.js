@@ -1,7 +1,7 @@
 import "./UsuarioRegistrado.css";
 import Photo from './../assets/imagen_perfil_1.jpg'
 
-export default function UsuarioRegistrado() {
+const UsuarioRegistrado = () => {
   return (
     <div class="container">
       <div class="card-container">
@@ -62,3 +62,5 @@ export default function UsuarioRegistrado() {
     </div>
   )
 }
+
+export default UsuarioRegistrado;

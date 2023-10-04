@@ -1,5 +1,6 @@
 import React from 'react'
 import './Login.css'
+import {Link} from 'react-router-dom'
 
 const Login = () => {
   return (
@@ -12,7 +13,7 @@ const Login = () => {
               <label for="password" className="password label">Contraseña:</label>
               <input type="password" className="input" id="password" placeholder="Escribe tu contraseña"/>
               <a href="." className="forgotPassword">Has olvidado tu contraseña?</a>
-              <button className="buttonSend"><a href="./perfil_usuario_registrado.html">Enviar</a></button>
+              <button className="buttonSend"><Link to="/userRegist">Enviar</Link></button>
           </div>
       </div>
     </>

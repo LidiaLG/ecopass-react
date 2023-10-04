@@ -1,4 +1,3 @@
-import { Outlet,Link } from 'react-router-dom';
 import './Navbar.css';
 import Logo from '../assets/logo.svg';
 import { useEffect } from 'react';
@@ -33,7 +32,7 @@ const Navbar = () => {
         <ul className="ul">
           <li className="li"><Link to="." className="a">Home</Link></li>
           <li className="li"><Link to="/register" className="a">Registrarse</Link></li>
-          <li className="li"><Link to="." className="a">Evento del mes</Link></li>
+          <li className="li"><Link to="/event" className="a">Evento del mes</Link></li>
           <li className="li"><Link to="/sobrenos" className="a">Sobre Nosotros</Link></li>
           <li className="li"><Link to="/faq" className="a">FAQ</Link></li>
         </ul>

@@ -6,6 +6,9 @@ import RegisterForm from './layouts/RegisterForm'
 import Login from './layouts/Login'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import EventoDetalles from './layouts/EventoDetalles'
+import UsuarioRegistrado from './layouts/UsuarioRegistrado'
+import ApuntadoEventoModal from './components/ApuntadoEventoModal'
 
 const Router = () => {
   return (
@@ -13,9 +16,12 @@ const Router = () => {
             <Navbar></Navbar>
             <Routes>
                 <Route path="/login" element={<Login/>}/>
-                <Route path="/register" element={<RegisterForm/>}/>
-                <Route path="/sobrenos" element={<MisionVision/>}/>
+                <Route path="/register" element={<RegisterForm/>}></Route>
+                <Route path="/event" element={<EventoDetalles/>}></Route>
+                <Route path="/sobrenos" element={<MisionVision/>}></Route>
                 <Route path="/faq" element={<Faq/>}/>
+                <Route path="/userRegist" element={<UsuarioRegistrado/>}></Route>
+                <Route path="/apuntadoEventoModal" element={<ApuntadoEventoModal/>}/>
             </Routes>
             <Footer></Footer>
         </BrowserRouter>

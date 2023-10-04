@@ -52,7 +52,7 @@ function EventoDetalles() {
           </div>
           <div className="row">
             <div className="calltoaction">
-              <Link to="/ApuntadoEventoModal">
+              <Link to="/apuntadoEventoModal">
                 <button id="calltoaction">¡Apúntate!</button>
               </Link>
             </div>
