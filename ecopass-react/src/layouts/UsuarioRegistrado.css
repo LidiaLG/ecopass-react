@@ -20,7 +20,7 @@ h3 {
     margin: 5px;
 }
 
-.container {
+.containerU {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@ h3 {
     border-radius: 10px;
     padding: 5%;
     margin-top: 4%;
-    max-width: 450px;
+    
 
     display: flex;
     flex-direction: column;
