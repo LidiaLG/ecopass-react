@@ -26,7 +26,17 @@ const MisionVision = () => {
   }, []); // El array vacío asegura que este efecto se ejecute solo una vez después de que el componente se haya montado
 
   return (
-    <div className="container">
+    <>
+    <div className="row">
+        <div className="divider"></div>
+      </div>
+      <div className="title">
+        <div className="titlesection">
+          <h1>MISIÓN Y VISIÓN</h1>
+        </div>
+      </div>
+    <div className="container-fluid">
+      
       <div className="row">
         <div className="divider"></div>
       </div>
@@ -38,7 +48,8 @@ const MisionVision = () => {
           </div>
         ))}
       </div>
-    </div>
+      </div>
+      </>
   );
 }
 

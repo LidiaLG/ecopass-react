@@ -1,0 +1,49 @@
+.callout {
+    background-color: #A2FF86;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 5%;
+    max-width: 400px;
+    height: 300px;
+    display: flex;
+    position: relative;
+}
+
+.calloutcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.closebtn p{
+    text-align: center;
+    text-decoration: none;
+}
+
+.user{
+    width: 80px; 
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+.closebtn {
+    
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: absolute;
+    top: 4%;
+    left: 4%;
+  }
+
+.closebtn:hover {
+  color: #164b60;
+}
+
+.icon-check {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20%;
+}
