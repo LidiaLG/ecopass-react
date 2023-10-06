@@ -21,14 +21,14 @@ function EventoDetalles() {
 
   return (
     <div>
-      <div classNam="row">
+      <div classNam="rowContainer">
         <div className="divider"></div>
         <div className="title">
           <div className="titlesection" id="titlesection">
             <h1>{eventData.nombre} {eventData.fecha}</h1>
           </div>
         </div>
-        <div className="container">
+        <div className="containerEvent">
           <div className="row">
             <div className="divider"></div>
           </div>
@@ -47,16 +47,14 @@ function EventoDetalles() {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="divider"></div>
-          </div>
-          <div className="row">
+          
+          
             <div className="calltoaction">
               <Link to="/apuntadoEventoModal">
                 <button id="calltoaction">¡Apúntate!</button>
               </Link>
             </div>
-          </div>
+         
           <div className="row">
             <div className="divider"></div>
           </div>
