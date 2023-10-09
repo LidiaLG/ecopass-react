@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 import EventoDetalles from './layouts/EventoDetalles'
 import UsuarioRegistrado from './layouts/UsuarioRegistrado'
 import ApuntadoEventoModal from './components/ApuntadoEventoModal'
+import RegisterModal from './components/RegisterModal'
 
 const Router = () => {
   return (
@@ -22,6 +23,7 @@ const Router = () => {
                 <Route path="/faq" element={<Faq/>}/>
                 <Route path="/userRegist" element={<UsuarioRegistrado/>}></Route>
                 <Route path="/apuntadoEventoModal" element={<ApuntadoEventoModal/>}/>
+                <Route path='/registerModal' element={<RegisterModal/>}/>
             </Routes>
             <Footer></Footer>
         </BrowserRouter>
