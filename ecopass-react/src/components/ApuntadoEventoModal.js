@@ -7,7 +7,7 @@ export default function ApuntadoEventoModal() {
     <div className="modal-overlay">
       <div className="containerModal">
         <div className="callout">
-          <Link to="/home" className="closebtn" style={{ textDecoration: 'none' }}>
+          <Link to="/event" className="closebtn" style={{ textDecoration: 'none' }}>
             &times;
           </Link>
           <div className="callout-container">
