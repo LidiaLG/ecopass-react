@@ -44,30 +44,32 @@ const Faq = () => {
         setFaqData(faq);
     }, []);
 
-  return (
-    <>
-        <div className="row">
-            <div className="divider"></div>
-        </div>
-        <div className="title"><div className="titlesection"><h1>FAQ - Frequently Asked Questions</h1></div></div>
-        <div className="container">
+    return (
+        <>
+
             <div className="row">
                 <div className="divider"></div>
             </div>
-            <div className="row" id="FAQ">
-                {faqData.preguntas.map((question) => (
-                    <div key={question.id} classNameName="box">
-                    <p classNameName="infotitle">{question.pregunta}</p>
-                    <p classNameName="info">{question.respuesta}</p>
-                  </div>
-                ))}
+            <div className="title"><div className="titlesection"><h1>FAQ - Frequently Asked Questions</h1></div></div>
+
+            <div className="containerfa">
+                <div className="row" id="FAQ">
+                    {faqData.preguntas.map((question) => (
+                        <div key={question.id} classNameName="box">
+                            <p className="infotitle">{question.pregunta}</p>
+                            <p className="info">{question.respuesta}</p>
+                        </div>
+                    ))}
+                </div>
             </div>
-        </div>
-        <div className="row">
-            <div className="divider"></div>
-        </div>
-    </>
-  )
+
+
+            <div className="row">
+                <div className="divider"></div>
+            </div>
+
+        </>
+    )
 }
 
 export default Faq
