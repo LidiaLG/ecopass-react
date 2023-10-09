@@ -10,12 +10,14 @@ import EventoDetalles from './layouts/EventoDetalles'
 import UsuarioRegistrado from './layouts/UsuarioRegistrado'
 import ApuntadoEventoModal from './components/ApuntadoEventoModal'
 import RegisterModal from './components/RegisterModal'
+import Home from './layouts/Home'
 
 const Router = () => {
   return (
     <BrowserRouter>
             <Navbar></Navbar>
             <Routes>
+                <Route path="/home" element={<Home/>}/>
                 <Route path="/login" element={<Login/>}/>
                 <Route path="/register" element={<RegisterForm/>}></Route>
                 <Route path="/event" element={<EventoDetalles/>}></Route>

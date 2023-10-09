@@ -24,13 +24,13 @@ const Navbar = () => {
         </svg>
       </button>
 
-    <Link to="." className="a">
+    <Link to="/home" className="a">
         <img className="logo" src={Logo} alt="logo" />
       </Link>
 
       <nav className="nav">
         <ul className="ul">
-          <li className="li"><Link to="." className="a">Home</Link></li>
+          <li className="li"><Link to="/home" className="a">Home</Link></li>
           <li className="li"><Link to="/register" className="a">Registrarse</Link></li>
           <li className="li"><Link to="/event" className="a">Evento del mes</Link></li>
           <li className="li"><Link to="/sobrenos" className="a">Sobre Nosotros</Link></li>

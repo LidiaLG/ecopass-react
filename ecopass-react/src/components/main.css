@@ -1,0 +1,180 @@
+
+#newestevents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#upcomingevent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*carousel*/
+
+.card {
+    background-color: #a2ff86 !important;
+    border: 4px solid black !important;
+    
+
+    
+} 
+
+
+/* streamer */
+
+
+    
+#streamer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+    margin-top: 50px;
+    background-color: #a2ff86;
+    border-radius: 7px;
+    border: 4px solid black
+    
+    
+
+}
+
+.triangle-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .triangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #D9D9D9; /* Cambia el color del triángulo aquí */
+    z-index: 1; /* Traer el triángulo por encima de la imagen */
+  }
+  
+  .image-container {
+    position: relative;
+    top: 0%; /* Ajusta la posición de la imagen según tus preferencias */
+    left: 0%; /* Ajusta la posición de la imagen según tus preferencias */
+    width: 120%; /* Ajusta el tamaño de la imagen según tus preferencias */
+    height: 120%; /* Ajusta el tamaño de la imagen según tus preferencias */
+    overflow: hidden;
+    z-index: 2;
+  }
+  
+  .triangle-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .texto{
+    text-align: center;
+  }
+
+  
+/*sponsor*/
+
+.sponsor {
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a2ff86;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+.sponsor {
+    margin-bottom: 100px;
+}
+
+.sponsor div {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.sponsor img {
+    width: 20%;
+    height: 80%;
+}
+
+img.chupachups {
+    width: 120px;
+}
+
+
+@media (max-width: 768px) {
+    
+    h1 {
+      font-size: 1em !important;
+    }
+  
+    #streamer {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .triangle-container {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .triangle-image {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .sponsor img {
+      width: 30%;
+      height: auto;
+      margin: 5px; 
+    }
+
+    .sponsor {
+        width: 100% !important;
+        height: auto;
+        flex-direction: column;
+        
+      }
+    
+    .sr {
+        width: 100% !important;
+        
+    }
+
+    .lr {
+        width: 100% !important;
+        
+    }
+
+    .App {
+        width: 100%;
+        margin: 0;
+    }
+
+    #upcomingevent {
+        width: 90%;
+    }
+
+    #newestevents {
+        width: 90%;
+    }
+  }
