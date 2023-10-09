@@ -1,4 +1,5 @@
 import './main.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function CardEA({event_img, event_name, localitation, event_date, event_desc}){
 
@@ -23,4 +24,7 @@ export default function CardEA({event_img, event_name, localitation, event_date,
         </div>
     )
 }
+
+
+
 

@@ -1,9 +1,9 @@
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 body{
-    background-color: #1B6B93;
+    background-color: #1B6B93 !important;
  
 }
 
@@ -14,6 +14,7 @@ body{
 }
 
 .App{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,123 +39,21 @@ body{
 /*carousel*/
 
 .card {
-    background-color: #a2ff86;
-    border: 4px solid black;
+    background-color: #a2ff86 !important;
+    border: 4px solid black !important;
     
 
     
 } 
 
-.carousel{
-    width: 100%;
-    margin: 0px 0px;
-    position: relative;
-    overflow: hidden;
-
-}
-
-.slick-list{
-    position: relative;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-        
-}
-
-#slick-track{
-    
-    position: relative;
-    top: 0px;
-    left: 0px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    transition: .5s ease-in-out;
-    z-index: 1;
-    
-
-}
-
-.slick {
-    position: relative;
-    width: 100%;
-    margin: 15px;
-    padding: 0 18px;
-    float: left;
-    box-sizing: border-box;
-    display: flex;
-    background-color: #a2ff86;
-    border: 4px solid black;
-    
-    
-    
-    
-}
-
-.slick img {
-    
-    object-fit: cover;
-    height: 150px;
-    width: 100%;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
-    transition: .3 ease-in-out;
-    
-    
-}
-
-
-.slick img:hover {
-    opacity: .85;
-}
-
-/*buttons*/
-
-.slick-arrow{
-    border-radius: 30px;
-    background-color: transparent;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 48px;
-    height: 48px;
-    text-align: center;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
-    border: 0;
-    cursor: pointer;
-    z-index: 4;
-    
-    opacity: 1;
-}
-
-.slick-arrow:focus{
-    outline: 0;
-}
-
-.slick-arrow svg{
-    width: 12px;
-    height: 100%;
-    color: rgba(0,0,0,.7)
-}
-
-
-.slick-prev {
-    left: 20px;
-    
-}
-
-
-.slick-next {
-    right: 20px;
-    z-index: 2;
-}
 
 h1 {
     text-align: center;
-    margin-top: 20px;
-    font-weight: bold;
-    color: hsl(0, 0%, 100%);
+    margin-top: 100px !important;
+    font-weight: bold !important;
+    color: hsl(0, 0%, 100%) !important;
     padding: 0;
-    font-size: 4em;
+    font-size: 4em !important;
 }
 
 
@@ -255,51 +154,60 @@ img.chupachups {
 }
 
 
-@media screen and (max-width: 767px) {
-
+@media (max-width: 768px) {
     
-
-    .container {
-        margin: 0 auto;
-        margin-top: 100px;
-    }
-
-    .card{
-        width:75%;
-        
-    }
-
     h1 {
-        font-size: 2em;
+      font-size: 1em !important;
     }
-
-    .img-fluid.rounded-start {
-        width: 100%;
-    }   
-    
-    .slick-list {
-        width: 100%;
-    }
-
+  
     #streamer {
-        width: 66%;
-        flex-direction: column;
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .triangle-container {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .triangle-image {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .sponsor img {
+      width: 30%;
+      height: auto;
+      margin: 5px; 
     }
 
     .sponsor {
-        width: 100%;
+        width: 100% !important;
+        height: auto;
+        flex-direction: column;
+        
+      }
+    
+    .sr {
+        width: 100% !important;
         
     }
 
-    .sponsor div {
-        height: auto;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+    .lr {
+        width: 100% !important;
+        
     }
 
-    .sponsor img {
-        width: 25%;
-        height: auto;
+    .App {
+        width: 100%;
+        margin: 0;
     }
-}
+
+    #upcomingevent {
+        width: 90%;
+    }
+
+    #newestevents {
+        width: 90%;
+    }
+  }
