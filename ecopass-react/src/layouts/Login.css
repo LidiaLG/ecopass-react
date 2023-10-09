@@ -193,8 +193,8 @@ body {
   border-bottom: solid 2px black;
   border-top: solid 2px black;
   margin-top: 50px;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 40px;
+  padding-bottom: 40px;
   font-size: 138.5%;
   font-weight: bold;
 }
@@ -203,8 +203,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
-  z-index: -1;
 }
 
 .container {
@@ -228,16 +226,16 @@ body {
 
 .forgotPassword {
   width: 100%;
+  margin-top: 6%;
   text-align: center;
-  color: var(--claro);
+  color:  #164B60;
   font-size: small;
   font-style: italic;
   text-decoration: underline;
 }
 
 .buttonSend {
-  margin-top: 4%;
-  margin: auto;
+  margin-top: 6%;
   background-color: #4FC0D0;
   font-weight: bold;
   padding: 2%;
