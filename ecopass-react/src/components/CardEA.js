@@ -5,7 +5,7 @@ export default function CardEA({event_img, event_name, localitation, event_date,
 
     return(
         <div class="row" id="newestevents">
-            <h1>¡¡EVENTO ACTUAL!!</h1>
+            <h1 id='titulo'>¡¡EVENTO ACTUAL!!</h1>
             <div class="card mb-3 card-events" style={{ maxWidth: '540px' }}>
                 <div class="row g-0">
                     <div class="col-md-4">

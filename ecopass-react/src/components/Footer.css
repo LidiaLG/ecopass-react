@@ -1,11 +1,9 @@
+
 :root {
     --negro: #393939;
     --oscuro: #164B60;
     --verde: #A2FF86;
     --fondo: #1B6B93;
-    /* Tipografía */
-    --tipo-principal: 'Poppins', sans-serif;
-    --tipo-secundaria: Verdana;
   }
 
 
@@ -35,6 +33,7 @@
   .contact {
     color: var(--fondo);
     font-size: large;
+    font-family: 'Poppins', sans-serif;
   }
 
   .iconsRrss {

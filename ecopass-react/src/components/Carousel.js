@@ -26,7 +26,7 @@ function Carousel(){
 
   return(
     <>
-    <h1>¡¡EVENTOS ANTERIORES!!</h1>
+    <h1 id="titulo">¡¡EVENTOS ANTERIORES!!</h1>
     <Swiper
       pagination={{
         clickable: true,

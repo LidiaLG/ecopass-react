@@ -2,7 +2,7 @@ import './main.css'
 
 export default function CardEP({event_img, event_name, localitation, event_date, event_desc}){
     return(
-        <div class="row" id="upcomingevent"><h1 class="prox">¡¡PRÓXIMO EVENTO!!</h1>
+        <div class="row" id="upcomingevent"><h1 class="prox" id='titulo'>¡¡PRÓXIMO EVENTO!!</h1>
             <div class="card mb-3 card-events" style={{ maxWidth: '540px' }}>
                 <div class="row g-0">
                     <div class="col-md-4">

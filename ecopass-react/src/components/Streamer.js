@@ -12,7 +12,7 @@ function Streamer(){
                 <div class="triangle-container">
                     <div class="triangle"></div>
                     <div class="image-container">
-                        <img src="./images/auronplay1.png" alt="Imagen en el triángulo" class="triangle-image"/>
+                        <img src="../images/auronplay 1.png" alt="Imagen en el triángulo" class="triangle-image"/>
                     </div>
                 </div>
                 <div class="texto">
