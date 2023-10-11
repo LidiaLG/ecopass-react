@@ -9,7 +9,7 @@ export default function CurrentEvent(){
     const [error, setError] = useState(null);
     
     useEffect(() => {
-        fetch('http://44.215.37.34/eventoactual')
+        fetch('http://44.215.37.34/eventoproximo')
         .then((res) => {
             if (!res.ok) {
             throw new Error('Network response was not ok');

@@ -51,7 +51,7 @@ function Carousel(){
     >
       {
         events.map( item => {
-          if (item.tipo == "evento anterior")
+          if (item.tipo === "evento anterior")
           return(
             <SwiperSlide>
                 <CardC key={item.id} event_img={item.imagen} event_name={item.nombre} />

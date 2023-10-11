@@ -12,6 +12,7 @@ import ApuntadoEventoModal from './components/ApuntadoEventoModal'
 import RegisterModal from './components/RegisterModal'
 import Home from './layouts/Home'
 
+
 const Router = () => {
   return (
     <BrowserRouter>

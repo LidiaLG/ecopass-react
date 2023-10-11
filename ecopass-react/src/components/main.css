@@ -7,11 +7,19 @@
 }
 
 
+
 #upcomingevent {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.eventCurrent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*carousel*/
@@ -123,8 +131,8 @@ img.chupachups {
 
 @media (max-width: 768px) {
     
-    h1 {
-      font-size: 1em !important;
+    #titulo {
+      font-size: 2em !important;
     }
   
     #streamer {

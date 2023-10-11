@@ -81,7 +81,7 @@
   }
   @media (max-width: 768px) {
       
-    h1 {
+    #titulo {
       font-size: 2em !important;
     }
   
