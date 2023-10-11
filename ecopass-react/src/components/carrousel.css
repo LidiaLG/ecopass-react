@@ -56,6 +56,7 @@
       height: 230px;
       padding: 1.25rem;
       object-fit: cover;
+      margin: auto;
   }
   
   i{
